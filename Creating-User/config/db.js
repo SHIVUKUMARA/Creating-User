@@ -6,7 +6,7 @@ const mongoose = require("mongoose")
 const connectDb = async () => {
     try{
         const conn = await mongoose.connect(
-          "mongodb+srv://shivu:C5DKbGUNqId0txNj@cluster0.pedjj5f.mongodb.net/nodejs?retryWrites=true&w=majority"
+          "Add Your MongoDB URL"
         ); 
         console.log("Connected to mongodb".bgGreen); 
     } catch(error){
